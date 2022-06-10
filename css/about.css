@@ -1,0 +1,68 @@
+.banner{
+    width: 100%;
+    min-height: 60vh;
+    color: white !important;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.4),rgba(0,0,0,.4)), url(../images/img-23.jpg)  ;
+    background-position: center;
+    background-size: cover  ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about  {
+    padding: 3% 0;
+}
+.about p{
+    font-size: 1.3rem;
+}
+.about .top li{
+    color: var(--primary);
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.about .top li::before{
+    content: "";
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 2px;
+    background-color: var(--primary);
+    top: 1rem;
+    left: -5%;
+}
+.about .bottom{
+    margin: 10% 0;
+}
+.about .img-box{
+    position: relative;
+
+}
+.about .bottom img{
+    width: 80%;
+    z-index: 2;
+    padding: 10% 0;
+
+}
+
+.about .bottom .deco1{
+    /* background-color: var(--primary); */
+    border: .6rem solid var(--primary);
+    width: 60%;
+    height: 55%;
+    position: absolute;
+    top:0%;
+    left: 0%;
+
+}
+.about .bottom .deco2{
+    /* background-color: var(--primary); */
+    border: .6rem solid var(--primary);
+    width: 60%;
+    height: 55%;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    z-index: 1;
+
+}

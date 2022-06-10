@@ -1,0 +1,21 @@
+.product-details img{
+    width: 100%;
+}
+
+
+.product-details li{
+    color: black;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.product-details li::before{
+    content: "";
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background-color: var(--primary);
+    top: 1rem;
+    left: -5%;
+}

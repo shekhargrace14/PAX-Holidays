@@ -1,0 +1,37 @@
+.banner{
+    width: 100%;
+    min-height: 60vh;
+    color: white !important;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.4),rgba(0,0,0,.4)), url(../images/img-23.jpg)  ;
+    /* background-image: url(../images/img-1.jpg)  ; */
+    background-position: center;
+    background-size: cover  ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact{
+    padding: 3% 0;
+}
+.contact .fas{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+
+.contact .fas:hover{
+    color: var(--primary-2);
+}
+
+.contact .form{
+    margin-top: 3%;
+    padding: 5% 0 2%;
+    background-color: var(--primary);
+}
+
+.contact .form label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white !important;
+}
